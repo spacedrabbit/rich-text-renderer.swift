@@ -13,7 +13,8 @@ Pod::Spec.new do |spec|
   }
 
   spec.authors      = { "JP Wright" => "jp@contentful.com" }
-  spec.source       = { :git => "https://github.com/contentful-labs/rich-text-renderer.swift.git",
+  # spec.source       = { :git => "https://github.com/contentful-labs/rich-text-renderer.swift.git",
+  spec.source       = { :git => "https://github.com/spacedrabbit/rich-text-renderer.swift.git",
                         :tag => spec.version.to_s }
   spec.requires_arc = true
   
